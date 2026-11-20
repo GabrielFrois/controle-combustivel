@@ -113,6 +113,18 @@ Duas tabelas no SQLite, com chave estrangeira e `ON DELETE CASCADE`:
 
 A data e o horário são gravados em UTC e convertidos para o horário local na exibição.
 
+## Testes
+ 
+```bash
+flutter test
+```
+ 
+- `test/indicadores_test.dart`: cálculo de distância, km/L e R$/km, resumo com
+  médias ponderadas, formatadores e conversão do modelo de abastecimento.
+- `test/widget_test.dart`: formulário de novo abastecimento (mensagens de
+  validação, quilometragem em relação ao abastecimento anterior e valor total
+  em tempo real).
+
 ## Capturas de tela
 
 ### Cadastro do veículo
